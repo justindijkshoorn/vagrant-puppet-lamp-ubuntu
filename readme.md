@@ -17,6 +17,6 @@ After running the above command (vagrant up), you'll have a fully running virtua
 
 	$ http://localhost:8080
 
-If everything works fine you should see index.php (phpinfo) from the www folder.
+If everything works fine you should see the index from the created www/html folder.
 
 MySql username and password are both set to 'root'.
