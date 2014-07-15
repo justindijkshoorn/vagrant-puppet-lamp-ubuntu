@@ -19,4 +19,5 @@ After running the above command (vagrant up), you'll have a fully running virtua
 
 If everything works fine you should see the index from the created www/html folder.
 
-MySql username and password are both set to 'root'.
+	$ MySql username: root
+	$ MySql password is unset use the following command to set: sudo mysqladmin -uroot password yourpassword
