@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "trusty-server-cloudimg-i386-vagrant-disk1.ubuntu.com"
+  config.vm.box = "utopic-server-cloudimg-i386-vagrant-disk1.ubuntu.com"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
