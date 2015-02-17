@@ -21,3 +21,23 @@ If everything works fine you should see the index from the created www/html fold
 
 	$ MySql username: root
 	$ MySql password is unset use the following command to set: sudo mysqladmin -uroot password yourpassword
+
+## Note: Enable htaccess
+By default Apache doesn't allow the use of .htaccess files, to enable this use the following. First enable rewrite using this command
+
+	$ sudo a2enmod rewrite
+
+Then restart apache2
+
+	$ sudo service apache2 restart
+
+Then go into the sites-available folder and edit the following file
+
+	$ cd /etc/apache2/sites-available
+	$ sudo nano 000-default.conf
+
+Add the following lines right below 'DocumentRoot' and restart apache2 again
+
+	<Directory "/var/www">
+		AllowOverride All
+	</Directory>
