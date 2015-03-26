@@ -22,6 +22,15 @@ If everything works fine you should see the index from the created www/html fold
 	$ MySql username: root
 	$ MySql password is unset use the following command to set: sudo mysqladmin -uroot password yourpassword
 
+## Note: Vagrant Synced folders - Timezone
+If you use Vagrant Synced folders be sure the Vagrant box and local machine have the same time. To check the current time use
+
+	$ date
+
+To change the timezone for Ubuntu (Vagrant box) use the following command and follow on screen instructions
+
+	$ sudo dpkg-reconfigure tzdata
+
 ## Note: Enable htaccess
 By default Apache doesn't allow the use of .htaccess files, to enable this use the following. First enable rewrite using this command
 
