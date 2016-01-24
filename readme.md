@@ -9,7 +9,7 @@ When installed navigate to the vagrant-puppet-lamp-ubuntu folder and run the fol
 
 This will automatically download the latest ubuntu server version for you from
 
-	$ https://cloud-images.ubuntu.com/vagrant/utopic/current/utopic-server-cloudimg-i386-vagrant-disk1.box
+	$ https://cloud-images.ubuntu.com/vagrant/vivid/current/vivid-server-cloudimg-i386-vagrant-disk1.box
 
 After running the above command (vagrant up), you'll have a fully running virtual machine in VirtualBox running the latest Ubuntu Server 32-bit with a pre-installed LAMP stack. You can SSH into this machine with vagrant ssh, and when you're done playing around, you can remove all traces of it with vagrant destroy.
 
